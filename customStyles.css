@@ -1,0 +1,41 @@
+.header {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-color: black;
+    padding: 20px;
+    margin-top: 20px;
+    border-width: 10px;
+}
+
+.header p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300%;
+    text-align: center;
+}
+
+.footer {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-color: black;
+    padding: 5px;
+    margin-top: 5px;
+    border-width: 5px;
+}
+
+.footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footerSpace {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 10px;
+}
