@@ -596,7 +596,12 @@ class AutoAlignManager {
         var base = 0;
         for (let i = 0; i < this.data.length; i++) {
             let elem = this.data[i][0];
-            base = Math.min(base,elem.c);
+            if (i == 0) {
+                base = elem.c;
+            }
+            else {
+                base = Math.min(base,elem.c);
+            }
         }
         for (let i = 0; i < this.data.length; i++) {
             for (let j = 0; j < this.data[i].length; j++) {
